@@ -1,0 +1,28 @@
+artifact_path: file:c:/Users/pradh/OneDrive/Desktop/Customer Churn Prediction and
+  Retention Analysis/churn-project/notebooks/mlruns/1/models/m-83758e9111344b68a58a8e9f3dcef23b/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.skops
+    lgb_version: 4.7.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+    serialization_format: skops
+    skops_trusted_types:
+    - lightgbm.basic.Booster
+    - collections.OrderedDict
+    - lightgbm.sklearn.LGBMRegressor
+    - lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.skops
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.13.0
+mlflow_version: 3.16.1
+model_id: m-83758e9111344b68a58a8e9f3dcef23b
+model_size_bytes: 537094
+model_uuid: m-83758e9111344b68a58a8e9f3dcef23b
+prompts: null
+run_id: 550553a4c6fa46e3a4d704bd65e616d7
+utc_time_created: '2026-10-03 12:30:40.767671'

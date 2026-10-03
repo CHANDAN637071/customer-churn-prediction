@@ -1,0 +1,24 @@
+artifact_path: file:c:/Users/pradh/OneDrive/Desktop/Customer Churn Prediction and
+  Retention Analysis/churn-project/notebooks/mlruns/1/models/m-4346b85aa1524e3c9a48730a0711342d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-4346b85aa1524e3c9a48730a0711342d
+model_size_bytes: 36551
+model_uuid: m-4346b85aa1524e3c9a48730a0711342d
+prompts: null
+run_id: e7827a6f33394b2b94a5c434316f2e40
+utc_time_created: '2026-10-03 12:27:50.024893'

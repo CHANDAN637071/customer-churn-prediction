@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/pradh/OneDrive/Desktop/Customer Churn Prediction and
+  Retention Analysis/churn-project/notebooks/mlruns/1/models/m-b52c9c433bb9459699e8e1acbeeb45a7/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.0
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.16.1
+model_id: m-b52c9c433bb9459699e8e1acbeeb45a7
+model_size_bytes: 473078
+model_uuid: m-b52c9c433bb9459699e8e1acbeeb45a7
+prompts: null
+run_id: ff2b8b1f2edb445c81a578a3742340d4
+utc_time_created: '2026-10-03 12:30:34.883693'
