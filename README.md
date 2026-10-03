@@ -17,3 +17,4 @@ Customer churn directly impacts recurring revenue. This project builds a model t
 The dataset is not included in this repo (see `.gitignore`). Download it from Kaggle and place it at `data/raw/telco_churn.csv`.
 
 ## Project Structure
+**Live Demo:** [https://customer-churn-prediction-wshyoducuw2wbc7pqfiv95.streamlit.app/](https://customer-churn-prediction-wshyoducuw2wbc7pqfiv95.streamlit.app/)
