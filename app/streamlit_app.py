@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
@@ -6,7 +7,8 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Customer Churn Predictor", layout="wide")
 
-MODEL_PATH = r"C:\Users\pradh\OneDrive\Desktop\Customer Churn Prediction and Retention Analysis\churn-project\models\lgbm_churn_model.pkl"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE_DIR, "models", "lgbm_churn_model.pkl")
 
 @st.cache_resource
 def load_model():
